@@ -2,21 +2,30 @@
 <html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
-  <script src="/js/main.js"></script>
+  <% include ../partials/Header %>
 </head>
 
-<body>
+<body class="container">
 
-  <h1>Will run for coffee</h1>
+	<header>
+		<% include ../partials/nav %>
+	</header>
 
-  <p id="demo">
-    Its true
-  </p>
+	<main>
 
-  <button type="button" onclick="myFunction()">
-    Look at me
-  </button>
+	  <h1>Olivia Schlepphorst
+	  </h1>
+
+	  <p id="demo">
+	    Computer Science and Business Major at Northeastern University
+	  </p>
+	  
+
+	  <button type="btn btn-primary" onclick="myFunction()">
+	    More stuff
+	  </button>
+
+	</main>
 
 </body>
 
